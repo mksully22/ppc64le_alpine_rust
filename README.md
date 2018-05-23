@@ -7,9 +7,11 @@ This repository contains the source, patches, scripts, and bootstrap packages (C
 
 ## Instructions
 1. Create a docker container with Alpine 
-    sudo docker run --name alpine_rustbuild  -it -v /rust-alpine-ppc64le:/mnt alpine:3.7
+
+    sudo docker run --name alpine_rustbuild  -it alpine:3.7
     
 2. Enter alpine_rustbuild container
+
     sudo docker exec -it alpine_rustbuild  /bin/sh
     
 3. Inside the alpine_rustbuild docker container:
